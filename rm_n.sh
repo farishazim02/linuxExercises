@@ -10,4 +10,4 @@ fi
 directory=$1
 bytes=$2
 
-find $directory -type f -size +${bytes}c -exec rm {} ";"
+find $directory -type f -size +${bytes}c -exec rm {} \;
