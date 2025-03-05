@@ -12,4 +12,4 @@ bytes=$2
 
 find $directory -type f -size +${bytes}c -exec rm {} \;
 
-# for exec, you need ; to end it. Since ; is a speical character in shell, you can use \ to escape ; or you can use ";" directly.
+# for exec, you need ';' to end it. Since ';' is a speical character in shell, you can use \ to escape ';' or you can use ';' directly.
